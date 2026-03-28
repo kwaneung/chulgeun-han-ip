@@ -70,7 +70,7 @@ export function HeaderWeather() {
   if (state.status === "loading") {
     return (
       <div
-        className="flex h-8 min-w-[7rem] items-center justify-end gap-1.5 rounded-md border border-transparent text-xs text-zinc-400 dark:text-zinc-500"
+        className="flex h-8 min-w-0 items-center justify-end gap-1 sm:min-w-[6.5rem]"
         aria-hidden
       >
         <span className="inline-block h-6 w-6 animate-pulse rounded bg-zinc-200/80 dark:bg-zinc-700/80" />
