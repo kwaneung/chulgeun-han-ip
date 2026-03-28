@@ -37,7 +37,7 @@ export default function RootLayout({
         <Providers>
           <SiteHeader />
           <main className="flex-1">{children}</main>
-          <footer className="border-t border-zinc-200 py-6 text-center text-xs font-medium text-zinc-500 dark:border-zinc-800 dark:text-zinc-500">
+          <footer className="relative z-10 border-t border-zinc-200/50 bg-white/35 py-6 text-center text-xs font-medium text-zinc-900 shadow-[0_-1px_0_0_rgba(0,0,0,0.05)] backdrop-blur-2xl backdrop-saturate-150 dark:border-zinc-600/40 dark:bg-zinc-950/35 dark:text-zinc-50 dark:shadow-[0_-1px_0_0_rgba(255,255,255,0.05)]">
             © {new Date().getFullYear()} 출근한입 · 짧은 IT 뉴스
           </footer>
         </Providers>
